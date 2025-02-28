@@ -32,3 +32,4 @@ timm
 torchdiffeq
 torchmetrics
 transformers
+gradio
