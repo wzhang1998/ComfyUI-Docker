@@ -2,8 +2,6 @@ name: Publish 'cu124-slim' to Docker Hub
 
 on: 
   workflow_dispatch: # Can be manually triggered
-  schedule: # Runs on every Monday, 07:00 UTC
-    - cron: '0 7 * * 1'
   push: 
     branches: [ main ]
     paths-ignore:
@@ -51,6 +49,6 @@ jobs:
           context: ./cu124-slim
           file: ./cu124-slim/Dockerfile
           tags:  |
-            yanwk/comfyui-boot:cu124-slim
-            yanwk/comfyui-boot:cu124-slim-${{ steps.date.outputs.date }}
+            wenyiii/comfyui-boot:cu124-slim
+            wenyiii/comfyui-boot:cu124-slim-${{ steps.date.outputs.date }}
           push: true
