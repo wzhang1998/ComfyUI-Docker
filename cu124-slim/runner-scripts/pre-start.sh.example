@@ -1,4 +1,12 @@
 #!/bin/bash
 set -eu
 
-echo "[INFO] Continue without pre-start script."
+# Source the actual pre-start script from the git repository
+if [ -f "/root/ComfyUI-sketchapp-content/user-scripts/pre-start.sh" ]; then
+  source /root/ComfyUI-sketchapp-content/user-scripts/pre-start.sh
+else
+  echo "[ERROR] Could not find pre-start.sh in the git repository."
+  echo "[INFO] Please make sure the ComfyUI-sketchapp-content repository is properly set up."
+fi
+
+echo "[INFO] Pre-start from git repo complete."
