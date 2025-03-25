@@ -25,7 +25,6 @@ https://github.com/ltdrdata/ComfyUI-Manager/raw/refs/heads/main/requirements.txt
 https://github.com/melMass/comfy_mtb/raw/refs/heads/main/requirements.txt
 https://github.com/storyicon/comfyui_segment_anything/raw/refs/heads/main/requirements.txt
 https://github.com/WASasquatch/was-node-suite-comfyui/raw/refs/heads/main/requirements.txt
-
 https://github.com/Fannovel16/comfyui_controlnet_aux/blob/main/requirements.txt
 https://github.com/chflame163/ComfyUI_LayerStyle/blob/main/requirements.txt
 https://github.com/shadowcz007/comfyui-mixlab-nodes/blob/main/requirements.txt
@@ -33,7 +32,11 @@ https://github.com/yolain/ComfyUI-Easy-Use/blob/main/requirements.txt
 https://github.com/kijai/ComfyUI-DepthAnythingV2/blob/main/requirements.txt
 https://github.com/giriss/comfy-image-saver/blob/main/requirements.txt
 https://github.com/Yanick112/ComfyUI-ToSVG/blob/main/requirements.txt
-https://github.com/chrisgoringe/cg-image-filter
+https://github.com/yuvraj108c/ComfyUI-Whisper/blob/master/requirements.txt
+https://github.com/rgthree/rgthree-comfy/blob/main/requirements.txt
+https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet/blob/master/ArgosTranslateNode/requirements.txt
+https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet/blob/master/DeepTranslatorNode/requirements.txt
+https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet/blob/master/GoogleTranslateNode/requirements.txt
 )
 
 for line in "${array[@]}";
