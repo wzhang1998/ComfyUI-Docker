@@ -37,20 +37,3 @@ gradio
 # install for custom OAutotrace node
 autotrace
 vpype
-
-numpy<2
-pillow
-matplotlib
-scipy
-scikit_image
-scikit_learn
-opencv-contrib-python
-pymatting
-timm
-colour-science
-transformers>=4.43.2
-blend_modes
-huggingface_hub>=0.23.4
-loguru
-vtracer
-PyMuPDF
