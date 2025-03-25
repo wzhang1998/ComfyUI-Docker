@@ -33,6 +33,21 @@ set -e
 cd /root/ComfyUI/custom_nodes
 clone_or_pull https://github.com/ltdrdata/ComfyUI-Manager.git
 
+clone_or_pull https://github.com/cubiq/ComfyUI_IPAdapter_plus.git
+clone_or_pull https://github.com/Fannovel16/comfyui_controlnet_aux.git
+clone_or_pull https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git
+clone_or_pull https://github.com/chflame163/ComfyUI_LayerStyle.git
+clone_or_pull https://github.com/shadowcz007/comfyui-mixlab-nodes.git
+clone_or_pull https://github.com/yolain/ComfyUI-Easy-Use.git
+clone_or_pull https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet.git
+clone_or_pull https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git
+clone_or_pull https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG.git
+clone_or_pull https://github.com/kijai/ComfyUI-DepthAnythingV2.git
+clone_or_pull https://github.com/giriss/comfy-image-saver.git
+clone_or_pull https://github.com/yiwangsimple/florence_dw.git
+clone_or_pull https://github.com/Yanick112/ComfyUI-ToSVG.git
+clone_or_pull https://github.com/chrisgoringe/cg-image-filter.git
+
 
 echo "########################################"
 echo "[INFO] Downloading Models..."
