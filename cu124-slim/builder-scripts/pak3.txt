@@ -37,3 +37,9 @@ gradio
 # install for custom OAutotrace node
 autotrace
 vpype
+
+vtracer
+openai-whisper
+blend-modes
+pymupdf==1.23.7
+frontend

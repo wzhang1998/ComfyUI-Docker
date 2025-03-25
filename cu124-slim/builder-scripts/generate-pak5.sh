@@ -34,7 +34,6 @@ https://github.com/giriss/comfy-image-saver/blob/main/requirements.txt
 https://github.com/Yanick112/ComfyUI-ToSVG/blob/main/requirements.txt
 https://github.com/yuvraj108c/ComfyUI-Whisper/blob/master/requirements.txt
 https://github.com/rgthree/rgthree-comfy/blob/main/requirements.txt
-https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet/blob/master/ArgosTranslateNode/requirements.txt
 https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet/blob/master/DeepTranslatorNode/requirements.txt
 https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet/blob/master/GoogleTranslateNode/requirements.txt
 )

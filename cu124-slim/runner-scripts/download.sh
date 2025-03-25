@@ -26,8 +26,13 @@ set +e
 cd /root
 git clone https://github.com/comfyanonymous/ComfyUI.git || git -C "ComfyUI" pull --ff-only
 cd /root/ComfyUI
+
 # Using stable version (has a release tag)
-git reset --hard "$(git tag | grep -e '^v' | sort -V | tail -1)"
+# git reset --hard "$(git tag | grep -e '^v' | sort -V | tail -1)"
+
+# Using specific version tag 0.3.18
+git reset --hard "v0.3.18"
+
 set -e
 
 cd /root/ComfyUI/custom_nodes
