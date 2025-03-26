@@ -35,7 +35,6 @@ transformers
 gradio
 
 # install for custom OAutotrace node
-autotrace
 vpype
 
 vtracer

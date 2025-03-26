@@ -85,7 +85,8 @@ ghostscript \
 libavcodec-devel \
 libavformat-devel \
 libavutil-devel \
-libswscale-devel
+libswscale-devel \
+autotrace
 
 # Temp fix for OpenCV on openSUSE
 ENV LD_PRELOAD=/usr/lib64/libjpeg.so.8
