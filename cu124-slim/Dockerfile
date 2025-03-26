@@ -46,6 +46,7 @@ python312-scikit-build \
 python312-scikit-build-core-pyproject \
 python312-scikit-image \
 python312-scikit-learn \
+python312-curses \
 python312-scipy \
 python312-svglib \
 python312-tqdm \
@@ -69,11 +70,23 @@ which \
 opencv \
 opencv-devel \
 ffmpeg \
+ffmpeg-devel \          
 x264 \
 x265 \
 google-noto-sans-fonts \
 google-noto-sans-cjk-fonts \
-google-noto-coloremoji-fonts
+google-noto-coloremoji-fonts \
+imagemagick \           
+potrace \               
+libcurl-devel \       
+nodejs \               
+npm \                 
+rust \                
+cargo \               
+librsvg \           
+inkscape \           
+alsa-lib-devel \     
+ghostscript             
 
 # Temp fix for OpenCV on openSUSE
 ENV LD_PRELOAD=/usr/lib64/libjpeg.so.8

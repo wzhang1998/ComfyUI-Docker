@@ -52,8 +52,9 @@ clone_or_pull https://github.com/giriss/comfy-image-saver.git
 clone_or_pull https://github.com/yiwangsimple/florence_dw.git
 clone_or_pull https://github.com/Yanick112/ComfyUI-ToSVG.git
 clone_or_pull https://github.com/chrisgoringe/cg-image-filter.git
-clone_or_pull https://github.com/rgthree/rgthree-comfy
-clone_or_pull https://github.com/yuvraj108c/ComfyUI-Whisper
+clone_or_pull https://github.com/rgthree/rgthree-comfy.git
+clone_or_pull https://github.com/yuvraj108c/ComfyUI-Whisper.git
+clone_or_pull https://github.com/civitai/civitai_comfy_nodes.git
 
 
 
