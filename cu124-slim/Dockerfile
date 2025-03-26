@@ -70,23 +70,22 @@ which \
 opencv \
 opencv-devel \
 ffmpeg \
-ffmpeg-devel \          
 x264 \
 x265 \
 google-noto-sans-fonts \
 google-noto-sans-cjk-fonts \
 google-noto-coloremoji-fonts \
-imagemagick \           
-potrace \               
-libcurl-devel \       
-nodejs \               
-npm \                 
-rust \                
-cargo \               
-librsvg \           
-inkscape \           
-alsa-lib-devel \     
-ghostscript             
+ImageMagick \
+potrace \
+libcurl-devel \
+rust \
+cargo \
+inkscape \
+ghostscript \
+libavcodec-devel \
+libavformat-devel \
+libavutil-devel \
+libswscale-devel
 
 # Temp fix for OpenCV on openSUSE
 ENV LD_PRELOAD=/usr/lib64/libjpeg.so.8
