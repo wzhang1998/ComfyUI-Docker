@@ -168,10 +168,10 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 ################################################################################
 
 # Fix for ArgosTranslate library executable stack issue
-RUN --mount=type=cache,target=/var/cache/zypp \
-    zypper --gpg-auto-import-keys \
-        install --no-confirm --auto-agree-with-licenses execstack \
-    && find /usr/local -name "libctranslate2*.so*" -exec execstack -c {} \; || true
+# RUN --mount=type=cache,target=/var/cache/zypp \
+#     zypper --gpg-auto-import-keys \
+#         install --no-confirm --auto-agree-with-licenses execstack \
+#     && find /usr/local -name "libctranslate2*.so*" -exec execstack -c {} \; || true
 
 ################################################################################
 

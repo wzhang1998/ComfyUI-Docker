@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/madebyollin/taesd/main/taef1_decoder.pth
   out=taef1_decoder.pth
 
 # upscale_models
-https://huggingface.co/lokCX/4x-Ultrasharp/blob/main/4x-UltraSharp.pth
+https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth
   dir=upscale_models
   out=4x-UltraSharp.pth
 
@@ -29,12 +29,12 @@ https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/image_encoder/mod
   out=CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors
 
 # depthanything
-https://huggingface.co/Kijai/DepthAnythingV2-safetensors/blob/main/depth_anything_v2_vitl_fp32.safetensors
+https://huggingface.co/Kijai/DepthAnythingV2-safetensors/resolve/main/depth_anything_v2_vitl_fp32.safetensors
   dir=depthanything
   out=depth_anything_v2_vitl_fp32.safetensors
 
 # Lora
-https://huggingface.co/alvdansen/midsommarcartoon/blob/main/araminta_k_midsommar_cartoon.safetensors
+https://huggingface.co/alvdansen/midsommarcartoon/resolve/main/araminta_k_midsommar_cartoon.safetensors
   dir=loras
   out=araminta_k_midsommar_cartoon.safetensors
 
@@ -43,12 +43,13 @@ https://civitai.com/api/download/models/241772?type=Model&format=SafeTensor
   out=Minimalist_OneLine-10.safetensors
 
 # bg remove
-https://huggingface.co/briaai/RMBG-1.4/blob/main/model.pth
+https://huggingface.co/briaai/RMBG-1.4/resolve/main/model.pth
   dir=../custom_nodes/ComfyUI-BRIA_AI-RMBG/RMBG-1.4
   out=model.pth
 
 # ControlNet v1.1
 # More models: https://huggingface.co/lllyasviel/sd_control_collection
+
 https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.pth
   dir=controlnet
   out=control_v11f1p_sd15_depth.pth
