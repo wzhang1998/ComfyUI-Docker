@@ -8,3 +8,4 @@ git+https://github.com/WASasquatch/img2texture.git
 requests
 tqdm
 python-dotenv
+py7zr
