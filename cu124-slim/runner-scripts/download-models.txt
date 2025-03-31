@@ -26,7 +26,11 @@ https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safet
 # clip_vision
 https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/image_encoder/model.safetensors
   dir=clip_vision
-  out=CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors?
+  out=CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors
+  dir=clip_vision
+  out=CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors
 
 # depthanything
 https://huggingface.co/Kijai/DepthAnythingV2-safetensors/resolve/main/depth_anything_v2_vitl_fp32.safetensors

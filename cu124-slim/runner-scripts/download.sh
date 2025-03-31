@@ -55,6 +55,9 @@ clone_or_pull https://github.com/chrisgoringe/cg-image-filter.git
 clone_or_pull https://github.com/rgthree/rgthree-comfy.git
 clone_or_pull https://github.com/yuvraj108c/ComfyUI-Whisper.git
 clone_or_pull https://github.com/civitai/civitai_comfy_nodes.git
+clone_or_pull https://github.com/cozymantis/pose-generator-comfyui-node.git
+clone_or_pull https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git
+clone_or_pull https://github.com/edenartlab/eden_comfy_pipelines.git
 
 
 
