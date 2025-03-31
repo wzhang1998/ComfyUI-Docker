@@ -7,3 +7,4 @@ git+https://github.com/WASasquatch/ffmpy.git
 git+https://github.com/WASasquatch/img2texture.git
 requests
 tqdm
+python-dotenv
